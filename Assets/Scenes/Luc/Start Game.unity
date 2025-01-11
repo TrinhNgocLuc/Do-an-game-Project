@@ -2961,8 +2961,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u0110\u0102NG NH\u1EACP"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aafba0810a5dd724e9af1bcd3871f748, type: 2}
+  m_sharedMaterial: {fileID: -264948278672900681, guid: aafba0810a5dd724e9af1bcd3871f748, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7022,8 +7022,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u0110\u0102NG K\xDD"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aafba0810a5dd724e9af1bcd3871f748, type: 2}
+  m_sharedMaterial: {fileID: -264948278672900681, guid: aafba0810a5dd724e9af1bcd3871f748, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7399,7 +7399,7 @@ MonoBehaviour:
   Username_login: {fileID: 1809609922}
   Pass_login: {fileID: 2090050960}
   start_Menu: {fileID: 186584876}
-  _playerData: {fileID: 11400000, guid: 7de55067f3a7a77459c402b319d2a1ba, type: 2}
+  _playerData: {fileID: 11400000, guid: c6ceb5f4777e7734fb461adcddeff34b, type: 2}
 --- !u!4 &1791682881
 Transform:
   m_ObjectHideFlags: 0

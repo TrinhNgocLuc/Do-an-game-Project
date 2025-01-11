@@ -12,6 +12,8 @@ public class checkConnect : MonoBehaviour
     [SerializeField] GameObject Select_2;
     [SerializeField] GameObject Select_3;
     [SerializeField] GameObject Select_4;
+    [SerializeField] GameObject Select_5;
+    [SerializeField] GameObject Select_6;
 
     void Start()
     {
@@ -20,6 +22,8 @@ public class checkConnect : MonoBehaviour
         Select_2.SetActive(false);
         Select_3.SetActive(false);
         Select_4.SetActive(false);
+        Select_5.SetActive(false);
+        Select_6.SetActive(false);
     }
     void Update()
     {
@@ -51,6 +55,14 @@ public class checkConnect : MonoBehaviour
             {
                 Select_4.SetActive(true);
             }
+            else if (Location.gameObject.CompareTag("Game5"))
+            {
+                Select_5.SetActive(true);
+            }
+            else if (Location.gameObject.CompareTag("Game5"))
+            {
+                Select_6.SetActive(true);
+            }
         }
         else
         {
@@ -59,6 +71,8 @@ public class checkConnect : MonoBehaviour
             Select_2.SetActive(false);
             Select_3.SetActive(false);
             Select_4.SetActive(false);
+            Select_5.SetActive(false);
+            Select_6.SetActive(false);
 
         }
     }

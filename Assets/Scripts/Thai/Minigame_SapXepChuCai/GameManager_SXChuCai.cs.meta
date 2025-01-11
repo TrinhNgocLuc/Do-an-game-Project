@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: c22ba66aa3479e64e9522ac93b51d7ef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - selectDiffUI: {instanceID: 0}
+  - pauseUI: {instanceID: 0}
+  - blurBlackScreen: {instanceID: 0}
+  - titleEndLvText: {instanceID: 0}
+  - exitOrReplayNoti: {instanceID: 0}
+  - exitOrReplayTitleTxt: {instanceID: 0}
+  - scoreNotiOnExitOrReplayNoti: {instanceID: 0}
+  - endLvUI: {instanceID: 0}
+  - gameOverUI: {instanceID: 0}
+  - timerText: {instanceID: 0}
+  - timeOutNoti: {instanceID: 0}
+  - scoreText: {instanceID: 0}
+  - scoreFx: {instanceID: 0}
+  - addScoreFx: {instanceID: 0}
+  - lvText: {instanceID: 0}
+  - vocaImageEndLv: {instanceID: 0}
+  - vocaTextEndLv: {instanceID: 0}
+  - vocaMeaningText: {instanceID: 0}
+  - vocaImageGamePlay: {instanceID: 0}
+  - vocaImageGOVUI: {instanceID: 0}
+  - vocaTextGamePlayTest: {instanceID: 0}
+  - vocaTextGOVUI: {instanceID: 0}
+  - vocaMeaningTextGOVUI: {instanceID: 0}
+  - bg: {instanceID: 0}
+  - playPartUI: {instanceID: 0}
+  - playerdata: {fileID: 11400000, guid: c6ceb5f4777e7734fb461adcddeff34b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

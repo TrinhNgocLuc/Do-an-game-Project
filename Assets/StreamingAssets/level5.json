@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "questionInfor": "What is the chemical symbol for gold?",
+      "options": [
+        "Au",
+        "Ag",
+        "Fe",
+        "Pb"
+      ],
+      "correctAns": "Au",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Who wrote the play 'Romeo and Juliet'?",
+      "options": [
+        "Shakespeare",
+        "Hemingway",
+        "Dickens",
+        "Tolkien"
+      ],
+      "correctAns": "Shakespeare",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the hardest natural substance on Earth?",
+      "options": [
+        "Diamond",
+        "Gold",
+        "Steel",
+        "Granite"
+      ],
+      "correctAns": "Diamond",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which planet has the most moons?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Mars",
+        "Neptune"
+      ],
+      "correctAns": "Jupiter",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the largest organ in the human body?",
+      "options": [
+        "Skin",
+        "Heart",
+        "Liver",
+        "Brain"
+      ],
+      "correctAns": "Skin",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which continent is the Sahara Desert located on?",
+      "options": [
+        "Africa",
+        "Asia",
+        "Australia",
+        "South America"
+      ],
+      "correctAns": "Africa",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the square of 15?",
+      "options": [
+        "225",
+        "150",
+        "200",
+        "250"
+      ],
+      "correctAns": "225",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which element has the atomic number 1?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Carbon",
+        "Nitrogen"
+      ],
+      "correctAns": "Hydrogen",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Who painted the 'Mona Lisa'?",
+      "options": [
+        "Da Vinci",
+        "Van Gogh",
+        "Picasso",
+        "Michelangelo"
+      ],
+      "correctAns": "Da Vinci",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the freezing point of water in Fahrenheit?",
+      "options": [
+        "32",
+        "0",
+        "100",
+        "212"
+      ],
+      "correctAns": "32",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the primary gas found in Earth's atmosphere?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "correctAns": "Nitrogen",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which Greek god is known as the god of the sea?",
+      "options": [
+        "Poseidon",
+        "Zeus",
+        "Hades",
+        "Apollo"
+      ],
+      "correctAns": "Poseidon",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the capital city of Japan?",
+      "options": [
+        "Tokyo",
+        "Osaka",
+        "Kyoto",
+        "Hiroshima"
+      ],
+      "correctAns": "Tokyo",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the process plants use to make food?",
+      "options": [
+        "Photosynthesis",
+        "Respiration",
+        "Digestion",
+        "Fermentation"
+      ],
+      "correctAns": "Photosynthesis",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Who discovered gravity by observing a falling apple?",
+      "options": [
+        "Newton",
+        "Einstein",
+        "Galileo",
+        "Tesla"
+      ],
+      "correctAns": "Newton",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the smallest prime number?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "5"
+      ],
+      "correctAns": "2",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which war was fought between 1939 and 1945?",
+      "options": [
+        "World War II",
+        "World War I",
+        "Cold War",
+        "Vietnam War"
+      ],
+      "correctAns": "World War II",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the boiling point of water in Celsius?",
+      "options": [
+        "100",
+        "0",
+        "50",
+        "212"
+      ],
+      "correctAns": "100",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which country is known as the Land of the Rising Sun?",
+      "options": [
+        "Japan",
+        "China",
+        "Thailand",
+        "India"
+      ],
+      "correctAns": "Japan",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the name of the largest planet in our Solar System?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Earth",
+        "Neptune"
+      ],
+      "correctAns": "Jupiter",
+      "questionType": "TEXT"
+    }
+  ]
+}

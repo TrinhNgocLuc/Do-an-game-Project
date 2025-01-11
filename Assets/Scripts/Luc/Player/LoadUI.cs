@@ -1,4 +1,4 @@
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -10,21 +10,18 @@ using static Cinemachine.DocumentationSortingAttribute;
 
 public class LoadUI : MonoBehaviour
 {
-    private string filePath;
-    public Data data;
-    public Slider expBar;
-    public TextMeshProUGUI level;
+
+    public TextMeshProUGUI userScore;
+    public TextMeshProUGUI userName;
     public playerData _playerData;
-    public expPlayer _expPlayer;
 
     void Update()
     {
         updateUI();
     }
-    
     public void updateUI()
     {
-        expBar.value = _playerData.GetExpValue();
-        level.text = "Lv." + _playerData.GetLevel().ToString();
+        userScore.text = "Điểm: " + _playerData.GetScoreSum().ToString();
+        userName.text = _playerData.GetName().ToString();
     }
 }

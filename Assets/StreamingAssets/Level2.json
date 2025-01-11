@@ -1,0 +1,284 @@
+{
+    "questions": [
+        {
+            "questionInfor": "What is the capital of the United States?",
+            "questionType": "TEXT",
+            "options": [
+                "Washington, D.C.",
+                "New York",
+                "Los Angeles",
+                "Chicago"
+            ],
+            "correctAns": "Washington, D.C.",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What is 5 + 3?",
+            "questionType": "TEXT",
+            "options": [
+                "7",
+                "8",
+                "9",
+                "10"
+            ],
+            "correctAns": "8",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What is the color of the sky on a clear day?",
+            "questionType": "TEXT",
+            "options": [
+                "Blue",
+                "Green",
+                "Red",
+                "Yellow"
+            ],
+            "correctAns": "Blue",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "Which animal says 'Meow'?",
+            "questionType": "TEXT",
+            "options": [
+                "Dog",
+                "Cat",
+                "Cow",
+                "Bird"
+            ],
+            "correctAns": "Cat",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What is the opposite of 'hot'?",
+            "questionType": "TEXT",
+            "options": [
+                "Cold",
+                "Warm",
+                "Cool",
+                "Freezing"
+            ],
+            "correctAns": "Cold",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What is 10 - 7?",
+            "questionType": "TEXT",
+            "options": [
+                "4",
+                "3",
+                "2",
+                "1"
+            ],
+            "correctAns": "3",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "How many days are there in a week?",
+            "questionType": "TEXT",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correctAns": "7",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What is the first letter of the English alphabet?",
+            "questionType": "TEXT",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "correctAns": "A",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What color are bananas?",
+            "questionType": "TEXT",
+            "options": [
+                "Yellow",
+                "Green",
+                "Red",
+                "Blue"
+            ],
+            "correctAns": "Yellow",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What do bees make?",
+            "questionType": "TEXT",
+            "options": [
+                "Honey",
+                "Milk",
+                "Cheese",
+                "Butter"
+            ],
+            "correctAns": "Honey",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What is the shape of the Earth?",
+            "questionType": "TEXT",
+            "options": [
+                "Round",
+                "Flat",
+                "Square",
+                "Triangle"
+            ],
+            "correctAns": "Round",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "Which day comes after Friday?",
+            "questionType": "TEXT",
+            "options": [
+                "Saturday",
+                "Sunday",
+                "Monday",
+                "Thursday"
+            ],
+            "correctAns": "Saturday",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What is 3 x 2?",
+            "questionType": "TEXT",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correctAns": "6",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What is the main ingredient in bread?",
+            "questionType": "TEXT",
+            "options": [
+                "Flour",
+                "Rice",
+                "Sugar",
+                "Butter"
+            ],
+            "correctAns": "Flour",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What animal is known as 'man's best friend'?",
+            "questionType": "TEXT",
+            "options": [
+                "Cat",
+                "Dog",
+                "Horse",
+                "Fish"
+            ],
+            "correctAns": "Dog",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "How many legs does a spider have?",
+            "questionType": "TEXT",
+            "options": [
+                "6",
+                "8",
+                "10",
+                "12"
+            ],
+            "correctAns": "8",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "Which planet is known as the Red Planet?",
+            "questionType": "TEXT",
+            "options": [
+                "Mars",
+                "Earth",
+                "Venus",
+                "Jupiter"
+            ],
+            "correctAns": "Mars",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What is the color of grass?",
+            "questionType": "TEXT",
+            "options": [
+                "Green",
+                "Blue",
+                "Yellow",
+                "Red"
+            ],
+            "correctAns": "Green",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "How many hours are there in a day?",
+            "questionType": "TEXT",
+            "options": [
+                "12",
+                "24",
+                "36",
+                "48"
+            ],
+            "correctAns": "24",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        },
+        {
+            "questionInfor": "What do cows drink?",
+            "questionType": "TEXT",
+            "options": [
+                "Water",
+                "Milk",
+                "Juice",
+                "Tea"
+            ],
+            "correctAns": "Water",
+            "qustionImage": null,
+            "qustionClip": null,
+            "qustionVideo": null
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8313280914163233758
+--- !u!1 &1670691688284790965
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8178583197009363239}
-  - component: {fileID: 6407695914316161288}
-  - component: {fileID: 7586033223292107507}
+  - component: {fileID: 3227832506430081005}
+  - component: {fileID: 8652284334072622461}
+  - component: {fileID: 7254208832748127528}
   m_Layer: 0
   m_Name: VocabularyManager
   m_TagString: Untagged
@@ -18,13 +18,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8178583197009363239
+--- !u!4 &3227832506430081005
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8313280914163233758}
+  m_GameObject: {fileID: 1670691688284790965}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -33,31 +33,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6407695914316161288
+--- !u!114 &8652284334072622461
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8313280914163233758}
+  m_GameObject: {fileID: 1670691688284790965}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b102cbd3ca503df4aafd9a483ce19a4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vocabularies: []
---- !u!114 &7586033223292107507
+  easyVocabularies: []
+  mediumVocabularies: []
+  hardVocabularies: []
+  easyVocaRemainQuantity: 0
+  mediumVocaRemainQuantity: 0
+  hardVocaRemainQuantity: 0
+--- !u!114 &7254208832748127528
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8313280914163233758}
+  m_GameObject: {fileID: 1670691688284790965}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 183d596a0c3869643bb2d7379cc0b8d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  csvFile_easy: {fileID: 4900000, guid: bd2accf67754cfd43bd765f915347b87, type: 3}
-  csvFile_medium: {fileID: 4900000, guid: 3b5d342a12afa554ea10195ea098f2d1, type: 3}
-  csvFile_hard: {fileID: 4900000, guid: c7f4d6a00c60e7549aa53ea0180f6259, type: 3}
+  csvFile_easy: {fileID: 4900000, guid: e5b648b379dd60a4991eee528c7384c0, type: 3}
+  csvFile_medium: {fileID: 4900000, guid: 46f7619d29199654f9fa293cafb28d21, type: 3}
+  csvFile_hard: {fileID: 4900000, guid: e5e4c371eb9ee5845995d009706e1634, type: 3}

@@ -11,9 +11,10 @@ public class TestGetData : MonoBehaviour
     [SerializeField] private TextMeshProUGUI meanText;
     void Start()
     {
-        vocaImage = transform.Find("Vocabulary's Image").GetComponent<Image>();
-        vocaText = transform.Find("Vocabulary").GetComponent <TextMeshProUGUI>();
-        meanText = transform.Find("Mean").GetComponent<TextMeshProUGUI>();
+
+       // vocaImage = transform.Find("Vocabulary's Image").GetComponent<Image>();
+        // vocaText = transform.Find("Vocabulary").GetComponent<TextMeshProUGUI>();
+       // meanText = transform.Find("Mean").GetComponent<TextMeshProUGUI>();
     }
     public void GetRandomEasyVocabulary()
     {

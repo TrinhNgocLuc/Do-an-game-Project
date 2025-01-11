@@ -7,7 +7,7 @@ public class Poin : MonoBehaviour
     [SerializeField] private Transform target;
     [SerializeField] private Vector3 offset;
      private Vector3 desiredPosition;
-    public void Update()
+   private void Update()
     {
 
         desiredPosition = target.position + offset;

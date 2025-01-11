@@ -1,0 +1,213 @@
+{
+  "questions": [
+    {
+      "questionInfor": "Which word best fits the sentence: The scientist was ____ to present his findings to the committee?",
+      "options": [
+        "eager",
+        "hesitant",
+        "uncertain",
+        "indifferent"
+      ],
+      "correctAns": "eager",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What does the word 'ephemeral' mean?",
+      "options": [
+        "Temporary",
+        "Eternal",
+        "Complex",
+        "Unclear"
+      ],
+      "correctAns": "Temporary",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Choose the correct synonym for 'meticulous':",
+      "options": [
+        "Careless",
+        "Precise",
+        "Lazy",
+        "Quick"
+      ],
+      "correctAns": "Precise",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the past participle of the verb 'to strive'?",
+      "options": [
+        "Striven",
+        "Strived",
+        "Strove",
+        "Striveden"
+      ],
+      "correctAns": "Striven",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which verb agrees with the subject in this sentence: 'The committee _____ reached a decision.'?",
+      "options": [
+        "has",
+        "have",
+        "is",
+        "are"
+      ],
+      "correctAns": "has",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Choose the correct form: 'He had ____ the invitation before I arrived.'",
+      "options": [
+        "accepted",
+        "accepting",
+        "accepts",
+        "accept"
+      ],
+      "correctAns": "accepted",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which is the correct spelling?",
+      "options": [
+        "Accommodate",
+        "Acomodate",
+        "Accomodate",
+        "Acomadate"
+      ],
+      "correctAns": "Accommodate",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Select the correct answer: 'The cat and the dog ____ playing in the garden.'",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "has"
+      ],
+      "correctAns": "are",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the opposite of 'expand'?",
+      "options": [
+        "Reduce",
+        "Enhance",
+        "Enlarge",
+        "Amplify"
+      ],
+      "correctAns": "Reduce",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which word is an antonym of 'abundant'?",
+      "options": [
+        "Scarce",
+        "Ample",
+        "Sufficient",
+        "Bountiful"
+      ],
+      "correctAns": "Scarce",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the meaning of 'cogent'?",
+      "options": [
+        "Persuasive",
+        "Confusing",
+        "Lengthy",
+        "Irrelevant"
+      ],
+      "correctAns": "Persuasive",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which prefix would make the word 'legal' mean 'not legal'?",
+      "options": [
+        "Il-",
+        "Un-",
+        "Dis-",
+        "Non-"
+      ],
+      "correctAns": "Il-",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which color is made by mixing blue and yellow?",
+      "options": [
+        "Green",
+        "Purple",
+        "Orange",
+        "Brown"
+      ],
+      "correctAns": "Green",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the largest ocean?",
+      "options": [
+        "Pacific",
+        "Atlantic",
+        "Indian",
+        "Arctic"
+      ],
+      "correctAns": "Pacific",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which metal is used in making coins?",
+      "options": [
+        "Copper",
+        "Gold",
+        "Silver",
+        "Iron"
+      ],
+      "correctAns": "Copper",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the main ingredient of bread?",
+      "options": [
+        "Flour",
+        "Sugar",
+        "Salt",
+        "Rice"
+      ],
+      "correctAns": "Flour",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is 15 ÷ 3?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "3"
+      ],
+      "correctAns": "5",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which country is known for pizza?",
+      "options": [
+        "Italy",
+        "France",
+        "Japan",
+        "India"
+      ],
+      "correctAns": "Italy",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What does the word 'ubiquitous' mean?",
+      "options": [
+        "Present everywhere",
+        "Rare",
+        "Unusual",
+        "Restricted"
+      ],
+      "correctAns": "Present everywhere",
+      "questionType": "TEXT"
+    }
+  ]
+}

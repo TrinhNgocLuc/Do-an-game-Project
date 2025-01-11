@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Do-an-game-Project.sln"
+
+    "dotnet.defaultSolution": "Do-an-.sln"
 }

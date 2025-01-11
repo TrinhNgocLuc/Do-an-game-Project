@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &686517110993449214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6495380699731574540}
+  - component: {fileID: 2785573343949567513}
+  m_Layer: 0
+  m_Name: GameManagerDaoAnh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6495380699731574540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686517110993449214}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2785573343949567513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686517110993449214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98d47636363cc24aa1e97de241c5ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  selectDiffUI: {fileID: 0}
+  pauseUI: {fileID: 0}
+  blurBlackScreen: {fileID: 0}
+  titleEndLvText: {fileID: 0}
+  exitOrReplayNoti: {fileID: 0}
+  exitOrReplayTitleTxt: {fileID: 0}
+  scoreNotiOnExitOrReplayNoti: {fileID: 0}
+  endLvUI: {fileID: 0}
+  gameOverUI: {fileID: 0}
+  timerText: {fileID: 0}
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  timeOutNoti: {fileID: 0}
+  scoreText: {fileID: 0}
+  scoreFx: {fileID: 0}
+  addScoreFx: {fileID: 0}
+  lvText: {fileID: 0}
+  vocaImageEndLv: {fileID: 0}
+  vocaTextEndLv: {fileID: 0}
+  vocaMeaningText: {fileID: 0}
+  addScore: 0
+  currentVocabulary:
+    vocabulary: 
+    mean: 
+    image: {fileID: 0}
+    audio: {fileID: 0}
+  allAlphabetSprites:
+  - {fileID: 21300000, guid: 1387277862c06824692f475289382191, type: 3}
+  - {fileID: 21300000, guid: b0d6153f1c20d2441afbcdbaf91561c7, type: 3}
+  - {fileID: 21300000, guid: 95e1e4da3f6ef8442bd60f7af2c60821, type: 3}
+  - {fileID: 21300000, guid: 5a7fa51a0a6d49b489ddc47ead295658, type: 3}
+  - {fileID: 21300000, guid: 38ce303671a5d37448a1e75567a8864b, type: 3}
+  - {fileID: 21300000, guid: a2a8919e817d7b64595ace37a9b8a7fc, type: 3}
+  - {fileID: 21300000, guid: 436c3f3ee41756e43876c4fa419913e7, type: 3}
+  - {fileID: 21300000, guid: ca1801ac71cb9544499286f590f31cb6, type: 3}
+  - {fileID: 21300000, guid: 4fb57dae752a8164692dc822318ad8b9, type: 3}
+  - {fileID: 21300000, guid: 7fad587c250b08942b9e6cc416e29c5f, type: 3}
+  - {fileID: 21300000, guid: 2fd4cd1c887fffc45a3f938d39ca17de, type: 3}
+  - {fileID: 21300000, guid: 13c592fecc92f554a8e1c720dcceba1c, type: 3}
+  - {fileID: 21300000, guid: 0f1d2c858ed000641850091ff71d98a0, type: 3}
+  - {fileID: 21300000, guid: af008e6eded287e4a9d294deea9dd636, type: 3}
+  - {fileID: 21300000, guid: 49a220bcf4c1c174889b53a693849148, type: 3}
+  - {fileID: 21300000, guid: 6673574306005864fb2c17c2bb14a1e2, type: 3}
+  - {fileID: 21300000, guid: d88f00110d974234385efd2d8488bdec, type: 3}
+  - {fileID: 21300000, guid: d75144ffe525aa447a1425ac60209370, type: 3}
+  - {fileID: 21300000, guid: 0f072b822a2be6c4b817152774a2b413, type: 3}
+  - {fileID: 21300000, guid: 07ab3882de535a7409a9e8cbe5f20088, type: 3}
+  - {fileID: 21300000, guid: cdc2b0020530e0b4696395828a359ac5, type: 3}
+  - {fileID: 21300000, guid: 2a90cc9a3ff85284c8f3d76a36cf4f73, type: 3}
+  - {fileID: 21300000, guid: 017c059c0c4c138408933718a9ac1513, type: 3}
+  - {fileID: 21300000, guid: 664898dd100ece44ab7927c1cb9722d0, type: 3}
+  - {fileID: 21300000, guid: c0750a511166c0544aea2940dde320fe, type: 3}
+  - {fileID: 21300000, guid: cc92773fdf964fc46810cf4001795b61, type: 3}
+  - {fileID: 21300000, guid: 6c557d669ac6a574a887f0fbd4391b66, type: 3}
+  currentVocabularies: []
+  currentVocaTextEasy: {fileID: 0}
+  currentVocaTextMedium: {fileID: 0}
+  currentVocaTextHard: {fileID: 0}
+  vocaPulledImagesEasy:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  vocaPulledImagesMedium:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  vocaPulledImagesHard:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  rightArrowEndLv: {fileID: 0}
+  leftArrowEndLv: {fileID: 0}
+  questionMarkSprite: {fileID: 21300082, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}

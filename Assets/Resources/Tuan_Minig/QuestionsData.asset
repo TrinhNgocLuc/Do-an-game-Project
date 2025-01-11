@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8746c8c2f14284dae36d6801dbc15b, type: 3}
+  m_Name: QuestionsData
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfor: Who can fly?
+    options:
+    - Swan
+    - Dog
+    - Cat
+    - Lion
+    correctAns: Swan
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Quess the animal!
+    options:
+    - Lion
+    - Dog
+    - Tiger
+    - Elephant
+    correctAns: Tiger
+    questionType: 1
+    qustionImage: {fileID: 21300000, guid: 177177483a9141e4a9edb99956a488b1, type: 3}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Quess the animal!
+    options:
+    - Chicken
+    - Cat
+    - Duck
+    - Snake
+    correctAns: Duck
+    questionType: 1
+    qustionImage: {fileID: 21300000, guid: 8c01c2ec617f09049ab92198bd734308, type: 3}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What comes after the number 9?
+    options:
+    - One
+    - Two
+    - Ten
+    - Seven
+    correctAns: Ten
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What do you use to write?
+    options:
+    - Pen
+    - Book
+    - Chair
+    - Table
+    correctAns: Pen
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Quess the animal!
+    options:
+    - Lion
+    - Dog
+    - Cat
+    - Rabbit
+    correctAns: Rabbit
+    questionType: 1
+    qustionImage: {fileID: 21300000, guid: 8802e5f4f8ebc244183d345f8c9aa8ec, type: 3}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What do we do when we are happy?
+    options:
+    - Cry
+    - Sleep
+    - Smile
+    - Run
+    correctAns: Smile
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What do we use to see?
+    options:
+    - Ears
+    - Nose
+    - Eyes
+    - Mouth
+    correctAns: Eyes
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: How many fingers do we have on one hand?
+    options:
+    - 3
+    - 4
+    - 5
+    - 6
+    correctAns: 5
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: How many fingers do we have on one hand?
+    options:
+    - 3
+    - 4
+    - 5
+    - 6
+    correctAns: 5
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What is the opposite of "hot"?
+    options:
+    - Cold
+    - Warm
+    - Cool
+    - Big
+    correctAns: Cold
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Which one is a fruit?
+    options:
+    - Carrot
+    - Apple
+    - Lettuce
+    - Botato
+    correctAns: Apple
+    questionType: 1
+    qustionImage: {fileID: 21300000, guid: e813dafae887fef44a1666928a1ef85c, type: 3}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Which one is a vehicle?
+    options:
+    - Car
+    - Book
+    - Dog
+    - Chair
+    correctAns: Car
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What do you use to brush your teeth?
+    options:
+    - Toothbrush
+    - Comb
+    - Hat
+    - Spoon
+    correctAns: Toothbrush
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What do you wear on your feet?
+    options:
+    - Hat
+    - Shoes
+    - Shirt
+    - Gloves
+    correctAns: Shoes
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What is the name of the day after Monday?
+    options:
+    - Sunday
+    - Wednesday
+    - Thursday
+    - Tuesday
+    correctAns: Tuesday
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Quess the animal?
+    options:
+    - Pig
+    - Cat
+    - Dog
+    - Chicken
+    correctAns: Pig
+    questionType: 2
+    qustionImage: {fileID: 21300000, guid: 536f56959dea243479b654ee9c0708a3, type: 3}
+    qustionClip: {fileID: 8300000, guid: cee598df77ecb59498c8897332a8e3b7, type: 3}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Quess the animal?
+    options:
+    - Pig
+    - Cat
+    - Dog
+    - Chicken
+    correctAns: Pig
+    questionType: 2
+    qustionImage: {fileID: 21300000, guid: 536f56959dea243479b654ee9c0708a3, type: 3}
+    qustionClip: {fileID: 8300000, guid: cee598df77ecb59498c8897332a8e3b7, type: 3}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Quess the animal?
+    options:
+    - Wolf
+    - Lion
+    - Dog
+    - Tiger
+    correctAns: Wolf
+    questionType: 2
+    qustionImage: {fileID: 21300000, guid: 536f56959dea243479b654ee9c0708a3, type: 3}
+    qustionClip: {fileID: 8300000, guid: eb3fb53d4aff2084f87b17612e20c7f1, type: 3}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Quess the animal?
+    options:
+    - Cat
+    - Bear
+    - Dog
+    - Chicken
+    correctAns: Cat
+    questionType: 2
+    qustionImage: {fileID: 21300000, guid: 536f56959dea243479b654ee9c0708a3, type: 3}
+    qustionClip: {fileID: 8300000, guid: 6ff2349692b7d1649b2ae8230b56f753, type: 3}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Quess the animal?
+    options:
+    - Cat
+    - Bear
+    - Dog
+    - Chicken
+    correctAns: Dog
+    questionType: 2
+    qustionImage: {fileID: 21300000, guid: 536f56959dea243479b654ee9c0708a3, type: 3}
+    qustionClip: {fileID: 8300000, guid: 6ff2349692b7d1649b2ae8230b56f753, type: 3}
+    qustionVideo: {fileID: 0}
+  - questionInfor: A square has ____ equal sides.
+    options:
+    - Two
+    - Three
+    - Four
+    - Five
+    correctAns: Four
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: The opposite of "big" is ____.
+    options:
+    - Tall
+    - Small
+    - Long
+    - Round
+    correctAns: Small
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: A zebra has ____ and white stripes.
+    options:
+    - Black
+    - Blue
+    - Red
+    - Yellow
+    correctAns: Black
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: We can drink juice from a ____.
+    options:
+    - Glass
+    - Plate
+    - Chair
+    - Pen
+    correctAns: Glass
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: A triangle has ____ sides.
+    options:
+    - Two
+    - Three
+    - Four
+    - Five
+    correctAns: Three
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: The opposite of "fast" is ____.
+    options:
+    - Slow
+    - Quick
+    - Heavy
+    - Small
+    correctAns: Slow
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: We use an umbrella when it ____.
+    options:
+    - Rains
+    - Snows
+    - Is windy
+    - Shines
+    correctAns: Rains
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: The moon comes out at ____.
+    options:
+    - Morning
+    - Afternoon
+    - Night
+    - Noon
+    correctAns: Night
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: A cow gives us ____.
+    options:
+    - Milk
+    - Eggs
+    - Wool
+    - Fur
+    correctAns: Milk
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Which of the following animals is a mammal?
+    options:
+    - Snake
+    - Dolphin
+    - Eagle
+    - Shark
+    correctAns: Dolphin
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What is the capital of England?
+    options:
+    - Paris
+    - London
+    - Hanoi
+    - Rome
+    correctAns: London
+    questionType: 1
+    qustionImage: {fileID: 21300000, guid: 9cb45b90251cb4a489e9f074767e24e7, type: 3}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}

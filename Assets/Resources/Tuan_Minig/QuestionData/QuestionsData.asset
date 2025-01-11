@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8746c8c2f14284dae36d6801dbc15b, type: 3}
+  m_Name: QuestionsData
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfor: What is the capital of the United States?
+    options:
+    - Washington, D.C.
+    - New York
+    - Los Angeles
+    - Chicago
+    correctAns: Washington, D.C.
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What is 5 + 3?
+    options:
+    - 7
+    - 8
+    - 9
+    - 10
+    correctAns: 8
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What is the color of the sky on a clear day?
+    options:
+    - Blue
+    - Green
+    - Red
+    - Yellow
+    correctAns: Blue
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Which animal says 'Meow'?
+    options:
+    - Dog
+    - Cat
+    - Cow
+    - Bird
+    correctAns: Cat
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What is the opposite of 'hot'?
+    options:
+    - Cold
+    - Warm
+    - Cool
+    - Freezing
+    correctAns: Cold
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What is 10 - 7?
+    options:
+    - 4
+    - 3
+    - 2
+    - 1
+    correctAns: 3
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: How many days are there in a week?
+    options:
+    - 5
+    - 6
+    - 7
+    - 8
+    correctAns: 7
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What is the first letter of the English alphabet?
+    options:
+    - A
+    - B
+    - C
+    - D
+    correctAns: A
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What color are bananas?
+    options:
+    - Yellow
+    - Green
+    - Red
+    - Blue
+    correctAns: Yellow
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What do bees make?
+    options:
+    - Honey
+    - Milk
+    - Cheese
+    - Butter
+    correctAns: Honey
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What is the shape of the Earth?
+    options:
+    - Round
+    - Flat
+    - Square
+    - Triangle
+    correctAns: Round
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Which day comes after Friday?
+    options:
+    - Saturday
+    - Sunday
+    - Monday
+    - Thursday
+    correctAns: Saturday
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What is 3 x 2?
+    options:
+    - 5
+    - 6
+    - 7
+    - 8
+    correctAns: 6
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What is the main ingredient in bread?
+    options:
+    - Flour
+    - Rice
+    - Sugar
+    - Butter
+    correctAns: Flour
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What animal is known as 'man's best friend'?
+    options:
+    - Cat
+    - Dog
+    - Horse
+    - Fish
+    correctAns: Dog
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: How many legs does a spider have?
+    options:
+    - 6
+    - 8
+    - 10
+    - 12
+    correctAns: 8
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: Which planet is known as the Red Planet?
+    options:
+    - Mars
+    - Earth
+    - Venus
+    - Jupiter
+    correctAns: Mars
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What is the color of grass?
+    options:
+    - Green
+    - Blue
+    - Yellow
+    - Red
+    correctAns: Green
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: How many hours are there in a day?
+    options:
+    - 12
+    - 24
+    - 36
+    - 48
+    correctAns: 24
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}
+  - questionInfor: What do cows drink?
+    options:
+    - Water
+    - Milk
+    - Juice
+    - Tea
+    correctAns: Water
+    questionType: 0
+    qustionImage: {fileID: 0}
+    qustionClip: {fileID: 0}
+    qustionVideo: {fileID: 0}

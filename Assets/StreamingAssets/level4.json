@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "questionInfor": "What is the capital of France?",
+      "options": [
+        "Paris",
+        "Rome",
+        "Berlin",
+        "Madrid"
+      ],
+      "correctAns": "Paris",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which planet is closest to the Sun?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars"
+      ],
+      "correctAns": "Mercury",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is 5 + 7?",
+      "options": [
+        "12",
+        "10",
+        "13",
+        "11"
+      ],
+      "correctAns": "12",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which animal is known as the King of the Jungle?",
+      "options": [
+        "Lion",
+        "Tiger",
+        "Elephant",
+        "Bear"
+      ],
+      "correctAns": "Lion",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which color is made by mixing blue and yellow?",
+      "options": [
+        "Green",
+        "Purple",
+        "Orange",
+        "Brown"
+      ],
+      "correctAns": "Green",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the largest ocean?",
+      "options": [
+        "Pacific",
+        "Atlantic",
+        "Indian",
+        "Arctic"
+      ],
+      "correctAns": "Pacific",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which metal is used in making coins?",
+      "options": [
+        "Copper",
+        "Gold",
+        "Silver",
+        "Iron"
+      ],
+      "correctAns": "Copper",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the main ingredient of bread?",
+      "options": [
+        "Flour",
+        "Sugar",
+        "Salt",
+        "Rice"
+      ],
+      "correctAns": "Flour",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is 15 ÷ 3?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "3"
+      ],
+      "correctAns": "5",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which country is known for pizza?",
+      "options": [
+        "Italy",
+        "France",
+        "Japan",
+        "India"
+      ],
+      "correctAns": "Italy",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which shape has 4 equal sides?",
+      "options": [
+        "Square",
+        "Circle",
+        "Triangle",
+        "Rectangle"
+      ],
+      "correctAns": "Square",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which fruit is yellow and curved?",
+      "options": [
+        "Banana",
+        "Apple",
+        "Grape",
+        "Mango"
+      ],
+      "correctAns": "Banana",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the chemical symbol for water?",
+      "options": [
+        "H2O",
+        "O2",
+        "CO2",
+        "NaCl"
+      ],
+      "correctAns": "H2O",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which instrument has keys and strings?",
+      "options": [
+        "Piano",
+        "Guitar",
+        "Drum",
+        "Flute"
+      ],
+      "correctAns": "Piano",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which month has 28 or 29 days?",
+      "options": [
+        "February",
+        "March",
+        "April",
+        "June"
+      ],
+      "correctAns": "February",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which animal lives in water?",
+      "options": [
+        "Fish",
+        "Dog",
+        "Cat",
+        "Horse"
+      ],
+      "correctAns": "Fish",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the opposite of 'hot'?",
+      "options": [
+        "Cold",
+        "Warm",
+        "Cool",
+        "Soft"
+      ],
+      "correctAns": "Cold",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "What is the square root of 64?",
+      "options": [
+        "8",
+        "7",
+        "6",
+        "9"
+      ],
+      "correctAns": "8",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which day comes after Friday?",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Thursday"
+      ],
+      "correctAns": "Saturday",
+      "questionType": "TEXT"
+    },
+    {
+      "questionInfor": "Which planet is known as the Red Planet?",
+      "options": [
+        "Mars",
+        "Earth",
+        "Jupiter",
+        "Venus"
+      ],
+      "correctAns": "Mars",
+      "questionType": "TEXT"
+    }
+  ]
+}

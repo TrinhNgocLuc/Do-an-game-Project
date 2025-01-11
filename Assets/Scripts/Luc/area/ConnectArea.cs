@@ -6,40 +6,51 @@ public class ConnectArea : MonoBehaviour
 {
     [SerializeField] private AudioSource SfxButton;
     [SerializeField] private checkConnect _checkConnect;
+    [SerializeField] private playerData _playerData;
     public void ConnectLibrary()
     {
-        if(_checkConnect)
-        SfxButton.Play();
-        SceneManager.LoadScene("Library");
+
+            SfxButton.Play();
+            SceneManager.LoadScene("Library");
+
     }
     public void ConnectGame1()
     {
-        if (_checkConnect)
+
             SfxButton.Play();
-        SceneManager.LoadScene("Library");
+            SceneManager.LoadScene("StartScene");
     }
     public void ConnectGame2()
     {
-        if (_checkConnect)
-        SfxButton.Play();
-        SceneManager.LoadScene("Library");
+
+            SfxButton.Play();
+            SceneManager.LoadScene("Minigame_SapXepChuCai");
+
     }
     public void ConnectGame3()
     {
-        if (_checkConnect)
-        SfxButton.Play();
-        SceneManager.LoadScene("Library");
+
+            SfxButton.Play();
+            SceneManager.LoadScene("Minigame_DaoAnh");
+
     }
     public void ConnectGame4()
     {
-        if (_checkConnect)
+
+            SfxButton.Play();
+            SceneManager.LoadScene("Library");
+    }
+    public void ConnectGame5()
+    {
+
         SfxButton.Play();
         SceneManager.LoadScene("Library");
     }
+
     public void Leave()
     {
         SfxButton.Play();
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Screen Main");
     }
 
 }

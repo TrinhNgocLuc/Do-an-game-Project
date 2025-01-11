@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Configuration;
 using System.Drawing.Text;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -76,7 +75,7 @@ public class startMenu : MonoBehaviour
     public void StartGame()
     {
         SfxButton.Play();
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Screen Main");
     }
     public void InstructGame()
     {

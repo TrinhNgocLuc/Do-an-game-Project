@@ -18,7 +18,7 @@ public class movePlayer : MonoBehaviour
     [SerializeField] private CharacterController _characterController;
     private Vector3 _velocity;
 
-    void Start()
+    void Awake()
     {
         _characterController = GetComponent<CharacterController>();
         transform.position = _playerData.GetPosition();
