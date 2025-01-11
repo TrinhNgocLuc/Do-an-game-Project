@@ -58,7 +58,7 @@ public class playerData : ScriptableObject
     }
     public int GetScoreGame4()
     {
-        return scoreGame3;
+        return scoreGame4;
     }
     public void SetScoreGame5(int newScore)
     {
@@ -67,7 +67,7 @@ public class playerData : ScriptableObject
     }
     public int GetScoreGame5()
     {
-        return scoreGame3;
+        return scoreGame5;
     }
     public int GetScoreSum()
     {

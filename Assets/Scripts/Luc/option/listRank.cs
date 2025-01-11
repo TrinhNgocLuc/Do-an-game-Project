@@ -89,11 +89,13 @@ public class listRank : MonoBehaviour
                 PlayerAccount.transform.Find("Game1").GetComponent<TextMeshProUGUI>().text = _playerData.GetScoreGame1().ToString();
                 PlayerAccount.transform.Find("Game2").GetComponent<TextMeshProUGUI>().text = _playerData.GetScoreGame2().ToString();
                 PlayerAccount.transform.Find("Game3").GetComponent<TextMeshProUGUI>().text = _playerData.GetScoreGame3().ToString();
+                Debug.Log("da lay");
                 PlayerAccount.transform.Find("Game4").GetComponent<TextMeshProUGUI>().text = _playerData.GetScoreGame4().ToString();
+                Debug.Log("da lay");
                 PlayerAccount.transform.Find("Game5").GetComponent<TextMeshProUGUI>().text = _playerData.GetScoreGame5().ToString();
+                Debug.Log("da lay");
                 PlayerAccount.transform.Find("Sum").GetComponent<TextMeshProUGUI>().text = _playerData.GetScoreSum().ToString();
                 Debug.Log("da lay");
-
                 break;
             }
             index++;

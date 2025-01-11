@@ -164,13 +164,13 @@ public class GameManagerDaoAnh : GameManager
                 }
                 break;
             case Difficulty.normal:
-                for (int i = 0; i < 6; i++)
+                for (int i = 0; i <6; i++)
                 {
                     currentVocabularies.Add(VocabularyManager.instance.GetRandomMediumVocabulary());
                 }
                 break;
             case Difficulty.hard:
-                for (int i = 0; i < 7; i++)
+                for (int i = 0; i <7; i++)
                 {
                     currentVocabularies.Add(VocabularyManager.instance.GetRandomHardVocabulary());
                 }
