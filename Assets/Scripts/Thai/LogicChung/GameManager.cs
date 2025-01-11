@@ -33,8 +33,13 @@ public abstract class GameManager : MonoBehaviour
     [SerializeField] protected TextMeshProUGUI vocaTextGOVUI;
     [SerializeField] protected TextMeshProUGUI vocaMeaningTextGOVUI;
     [SerializeField] protected int addScore = 0;
+    [SerializeField] private GameObject rank;
+    [SerializeField] private GameObject gamePlay;
+    [SerializeField] private AudioSource SFXbutton;
+
     public Vocabulary currentVocabulary;
     public List<Sprite> allAlphabetSprites;
+    private bool statusRank = false;
     protected int life = 3;
     protected float timer = 0;
     protected bool timeOut = false;
@@ -115,6 +120,7 @@ public abstract class GameManager : MonoBehaviour
     }
     public virtual void OnClickNextLv()
     {
+        SFXbutton.Play();
         endLvUI.gameObject.SetActive(false);
         timeOutNoti.gameObject.SetActive(false);
         blurBlackScreen.gameObject.SetActive(false);
@@ -123,16 +129,19 @@ public abstract class GameManager : MonoBehaviour
     }
     public void OnSelectExitBtn()
     {
+        SFXbutton.Play();
         exitOrReplayTitleTxt.text = "Bạn muốn chơi lại?";
         exitOrReplayNoti.SetActive(true);
     }
     public void OnSelectQuitGameBtn()
     {
+        SFXbutton.Play();
         exitOrReplayTitleTxt.text = "Bạn muốn thoát game?";
         exitOrReplayNoti.SetActive(true);
     }
     public virtual void OnClickOkExitOrReplayBtn()
     {
+        SFXbutton.Play();
         endLvUI.gameObject.SetActive(false);
         gameOverUI.gameObject.SetActive(false);
         selectDiffUI.gameObject.SetActive(true); 
@@ -140,6 +149,7 @@ public abstract class GameManager : MonoBehaviour
     }
     public void OnClickNoExitOrReplayBtn()
     {
+        SFXbutton.Play();
         exitOrReplayNoti.SetActive(false);
     }
     protected virtual void EnablePassLvUI()
@@ -194,6 +204,7 @@ public abstract class GameManager : MonoBehaviour
     public void AddBonusScore() => score += addScore;
     public void OnClickPauseGame()
     {
+        SFXbutton.Play();
         if (!startTimer)
             return;
         Time.timeScale = 0f;
@@ -202,6 +213,7 @@ public abstract class GameManager : MonoBehaviour
     }
     public void OnClickContinueGame()
     {
+        SFXbutton.Play();
         Time.timeScale = 1f;
         pauseUI.SetActive(false);
         AudioManager.instance.IncreaseBGMVolumeAfterContinueGame();
@@ -228,6 +240,24 @@ public abstract class GameManager : MonoBehaviour
     }
     public void OnClickBackToMainEnvironment()
     {
+        SFXbutton.Play();
         SceneManager.LoadScene("Screen Main");
+    }
+    public void OnClicklistRank()
+    {
+        SFXbutton.Play();
+        statusRank = !statusRank;
+        if (statusRank == true)
+        {
+            rank.SetActive(true);
+            gamePlay.SetActive(false);
+
+        }
+        else if (statusRank == false)
+        {
+            rank.SetActive(false);
+            gamePlay.SetActive(true);
+
+        }
     }
 }
