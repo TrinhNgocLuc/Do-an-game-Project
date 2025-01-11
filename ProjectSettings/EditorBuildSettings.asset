@@ -15,12 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Luc/Library.unity
     guid: 671a93ac86d510e4f84eff97143563d1
   - enabled: 1
-    path: Assets/Scenes/Thai/Minigame_SapXepChuCai.unity
-    guid: b51dd882b1e62bd4ea4fff750ab68719
-  - enabled: 1
-    path: Assets/Scenes/Thai/Minigame_DaoAnh.unity
-    guid: 726c6ba768382b843be0367dadeb30de
-  - enabled: 1
     path: Assets/Scenes/Tuan/StartScene.unity
     guid: 6194e5b1e4df2884caba8180da6a0f70
   - enabled: 1
@@ -41,4 +35,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tuan/Level5.unity
     guid: 5cb9a62d31c657f4ca7e758ca22290ba
+  - enabled: 1
+    path: Assets/Scenes/Thai/Minigame_SapXepChuCai.unity
+    guid: b51dd882b1e62bd4ea4fff750ab68719
+  - enabled: 1
+    path: Assets/Scenes/Thai/Minigame_DaoAnh.unity
+    guid: 726c6ba768382b843be0367dadeb30de
+  - enabled: 1
+    path: Assets/Scenes/Thai/Minigame_LuyenTriNho.unity
+    guid: b125c423ddf9165429a404103bac8abf
   m_configObjects: {}

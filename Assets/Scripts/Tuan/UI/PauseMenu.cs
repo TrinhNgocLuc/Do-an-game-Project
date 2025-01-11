@@ -52,6 +52,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Exit()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Screen Main");
         audioSource.PlayOneShot(touchSFX);
     }

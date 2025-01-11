@@ -18,6 +18,11 @@ public class GameManagerLuyenTriNho : GameManager
     [SerializeField] private GameObject leftArrowEndLv;
     [SerializeField] private GameObject rightArrowGoUI;
     [SerializeField] private GameObject leftArrowGoUI;
+    [SerializeField] private playerData playerScore;
+    [SerializeField] private GameObject rank;
+    [SerializeField] private GameObject gamePlay;
+    [SerializeField] private AudioSource SFXbutton;
+    private bool statusRank = false;
     private List<int> vocaIndexsRemain = new List<int>();
     private Transform card1_Selected = null;
     private Transform card2_Selected = null;
@@ -357,8 +362,12 @@ public class GameManagerLuyenTriNho : GameManager
     }
     public override void OnClickOkExitOrReplayBtn()
     {
-        base.OnClickOkExitOrReplayBtn();
         startTimer = false;
+        if (playerScore.scoreGame4 < score)
+        {
+            playerScore.SetScoreGame4(score);
+        }
+        base.OnClickOkExitOrReplayBtn();
     }
     public void OnClickNextImageOnEndLv()
     {
@@ -425,5 +434,22 @@ public class GameManagerLuyenTriNho : GameManager
         vocaMeaningTextGOVUI.text = currentVocabularies[currentVocaOnEndLv].mean;
         AudioManager.instance.SetCurrentWordAudio(currentVocabularies[currentVocaOnEndLv].audio);
         PlayWordAudio();
+    }
+    public void controllRank()
+    {
+        SFXbutton.Play();
+        statusRank = !statusRank;
+        if (statusRank == true)
+        {
+            rank.SetActive(true);
+            gamePlay.SetActive(false);
+
+        }
+        else if (statusRank == false)
+        {
+            rank.SetActive(false);
+            gamePlay.SetActive(true);
+
+        }
     }
 }
