@@ -40,6 +40,7 @@ public abstract class GameManager : MonoBehaviour
     protected bool timeOut = false;
     protected bool outOfVoca = false;
     protected bool startTimer = false;
+
     protected virtual void Start()
     {
         selectDiffUI.gameObject.SetActive(true);
@@ -230,4 +231,5 @@ public abstract class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Screen Main");
     }
+   
 }

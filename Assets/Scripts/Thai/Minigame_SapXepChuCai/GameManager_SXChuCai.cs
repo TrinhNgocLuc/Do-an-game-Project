@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class GameManager_SXChuCai : GameManager
@@ -15,7 +16,11 @@ public class GameManager_SXChuCai : GameManager
     [SerializeField] private List<GameObject> perfectWordHolders;
     [SerializeField] private BackgroundMoving bg;
     [SerializeField] private PlayPartUI playPartUI;
-    
+    [SerializeField] private playerData playerScore;
+    [SerializeField] private GameObject rank;
+    [SerializeField] private GameObject gamePlay;
+    [SerializeField] private AudioSource SFXbutton;
+    private bool statusRank = false;
     private void Awake()
     {
         if (instance != null)
@@ -256,8 +261,28 @@ public class GameManager_SXChuCai : GameManager
     }
     public override void OnClickOkExitOrReplayBtn()
     {
+        if (playerScore.scoreGame2 < score)
+        {
+            playerScore.SetScoreGame2(score);
+        }
         base.OnClickOkExitOrReplayBtn();
-        playerData data = Resources.Load<playerData>("playerData");
-        data.SetScoreGame1(score);
+
+    }
+    public void controllRank()
+    {
+        SFXbutton.Play();
+        statusRank = !statusRank;
+        if (statusRank == true)
+        {
+            rank.SetActive(true);
+            gamePlay.SetActive(false);
+
+        }
+        else if (statusRank == false)
+        {
+            rank.SetActive(false);
+            gamePlay.SetActive(true);
+
+        }
     }
 }

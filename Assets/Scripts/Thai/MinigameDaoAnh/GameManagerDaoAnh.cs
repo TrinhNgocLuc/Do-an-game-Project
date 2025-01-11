@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class GameManagerDaoAnh : GameManager
@@ -23,6 +24,11 @@ public class GameManagerDaoAnh : GameManager
     [SerializeField] private GameObject leftArrowGoUI;
     [SerializeField] private Sprite questionMarkSprite;
     [SerializeField] private Image thunderFx;
+    [SerializeField] private playerData playerScore;
+    [SerializeField] private GameObject rank;
+    [SerializeField] private GameObject gamePlay;
+    [SerializeField] private AudioSource SFXbutton;
+    private bool statusRank = false;
     private int currentVocaOnEndLv = 0;
     private int currentVocaNum = 0;
     private Coroutine corouChecker = null;
@@ -366,10 +372,12 @@ public class GameManagerDaoAnh : GameManager
     }
     public override void OnClickOkExitOrReplayBtn()
     {
-        base.OnClickOkExitOrReplayBtn();
         startTimer = false;
-        //playerData data = Resources.Load<playerData>("playerData");
-        //data.SetScoreGame2(score);
+        if (playerScore.scoreGame3 < score)
+        {
+            playerScore.SetScoreGame3(score);
+        }
+        base.OnClickOkExitOrReplayBtn();
     }
     public void AddBonusTime() => timer += 15;
     public void ShowThunderFx()
@@ -424,5 +432,22 @@ public class GameManagerDaoAnh : GameManager
     {
         AudioManager.instance.SetCurrentWordAudio(currentVocabularies[0].audio);
         base.EnableEndGameUI();
+    }
+    public void controllRank()
+    {
+        SFXbutton.Play();
+        statusRank = !statusRank;
+        if (statusRank == true)
+        {
+            rank.SetActive(true);
+            gamePlay.SetActive(false);
+
+        }
+        else if (statusRank == false)
+        {
+            rank.SetActive(false);
+            gamePlay.SetActive(true);
+
+        }
     }
 }

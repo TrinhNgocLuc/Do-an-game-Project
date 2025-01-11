@@ -74,26 +74,33 @@ public class DataManager : MonoBehaviour
 
         foreach (DataSnapshot userSnapshot in snapshot.Children)
         {
-            string userName = userSnapshot.Child("Username").Value.ToString();
-            string password = userSnapshot.Child("Password").Value.ToString();
-
-            if (Username_login.text == userName && Pass_login.text == password)
+            if( userSnapshot == null)
             {
-                Debug.Log("Username: " + userName);
-                Debug.Log("Password: " + password);
-                PlayerPrefs.SetString("currentUserId", userSnapshot.Key);
-                _playerData.Name = userName;
-                _playerData.scoreGame1 = int.Parse(userSnapshot.Child("ScoreGame1").Value.ToString());
-                _playerData.scoreGame2 = int.Parse(userSnapshot.Child("ScoreGame2").Value.ToString());
-                _playerData.scoreGame3 = int.Parse(userSnapshot.Child("ScoreGame3").Value.ToString());
-                _playerData.scoreGame4 = int.Parse(userSnapshot.Child("ScoreGame4").Value.ToString());
-                _playerData.scoreGame5 = int.Parse(userSnapshot.Child("ScoreGame5").Value.ToString());
-                _playerData.scoreSum = int.Parse(userSnapshot.Child("ScoreSum").Value.ToString());
-                Debug.Log("lay data ok");
-                start_Menu.Main_menu.SetActive(true);
-                start_Menu.Login.SetActive(false);
-                return;
+                start_Menu.ShowLoginNoti();
             }
+            else 
+            {
+                string userName = userSnapshot.Child("Username").Value.ToString();
+                string password = userSnapshot.Child("Password").Value.ToString();
+                if (Username_login.text == userName && Pass_login.text == password)
+                {
+                    Debug.Log("Username: " + userName);
+                    Debug.Log("Password: " + password);
+                    PlayerPrefs.SetString("currentUserId", userSnapshot.Key);
+                    _playerData.Name = userName;
+                    _playerData.scoreGame1 = int.Parse(userSnapshot.Child("ScoreGame1").Value.ToString());
+                    _playerData.scoreGame2 = int.Parse(userSnapshot.Child("ScoreGame2").Value.ToString());
+                    _playerData.scoreGame3 = int.Parse(userSnapshot.Child("ScoreGame3").Value.ToString());
+                    _playerData.scoreGame4 = int.Parse(userSnapshot.Child("ScoreGame4").Value.ToString());
+                    _playerData.scoreGame5 = int.Parse(userSnapshot.Child("ScoreGame5").Value.ToString());
+                    _playerData.scoreSum = int.Parse(userSnapshot.Child("ScoreSum").Value.ToString());
+                    Debug.Log("lay data ok");
+                    start_Menu.Main_menu.SetActive(true);
+                    start_Menu.Login.SetActive(false);
+                    return;
+                }
+            }
+            
         }
         Debug.Log("Tên đăng nhập hoặc mật khẩu không chính xác.");
         start_Menu.ShowLoginNoti();

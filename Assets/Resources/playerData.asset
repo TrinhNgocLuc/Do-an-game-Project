@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d76dcbafd0198244a95321444d291e4, type: 3}
   m_Name: playerData
   m_EditorClassIdentifier: 
-  position: {x: 140.4021, y: 2.845273, z: 59.996643}
-  scoreGame1: 0
-  scoreGame2: 0
+  position: {x: -17.808548, y: 8.525817, z: 8.712158}
+  scoreGame1: 20
+  scoreGame2: 54
   scoreGame3: 0
   scoreGame4: 0
   scoreGame5: 0
-  scoreGame6: 0
-  scoreSum: 0
-  Name: luc2
+  scoreSum: 74
+  Name: luc1
