@@ -38,13 +38,13 @@ public class ConnectArea : MonoBehaviour
     {
 
             SfxButton.Play();
-            SceneManager.LoadScene("Library");
+            SceneManager.LoadScene("Minigame_LuyenTriNho");
     }
     public void ConnectGame5()
     {
 
         SfxButton.Play();
-        SceneManager.LoadScene("Library");
+        SceneManager.LoadScene("Minigame_TanCongTuVung");
     }
 
     public void Leave()

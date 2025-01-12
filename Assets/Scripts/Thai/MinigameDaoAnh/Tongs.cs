@@ -14,17 +14,21 @@ public class Tongs : MonoBehaviour
         if (collision.GetComponent<IItemType>() != null)
         {
             canGoBack = true;
-            if(collision.GetComponent<RacoonMovement>() != null)
-                collision.GetComponent<RacoonMovement>().SetBePickedUp(transform);
+            collision.GetComponent<IItemType>().SetBePickedUp(transform);
             pickUpSpeedModifier = collision.GetComponent<IItemType>().GetItemPickUpSpeedModifier();
         }
     }
     public float GetPickingUpItemSpeedModifier() => pickUpSpeedModifier;
     public void PulledUpImageAndCheck()
     {
-        if (transform.childCount < 1)
+        if (transform.childCount < 2)
             return;
-        Transform transf = transform.GetChild(0);
+        Transform transf = transform.GetChild(1);
+        if(transf.GetComponent<PowerUpController>() != null)
+        {
+            transf.GetComponent<PowerUpController>().GetRandomPowerUp();
+            return;
+        }
         if(transf.gameObject.activeInHierarchy)
         {
             if(GameManagerDaoAnh.Instance.CheckImagePulled(transf.GetComponent<RacoonImage>().GetImage()))
@@ -32,6 +36,7 @@ public class Tongs : MonoBehaviour
                 RacoonSpawner.Instance.Despawn(transf);
                 GameManagerDaoAnh.Instance.SetNextVocaAfterPulledSucess();
                 GameManagerDaoAnh.Instance.SetNewImageAfterPulledSucess(transf.GetComponent<RacoonImage>().GetImage());
+                GameManagerDaoAnh.Instance.SetAllRacoonBackToTheirImage();
             } else
             {
                 transf.GetComponent<RacoonMovement>().RunAwayAfterPullWrong();

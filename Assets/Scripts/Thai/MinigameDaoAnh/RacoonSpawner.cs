@@ -46,7 +46,7 @@ public class RacoonSpawner : Spawner
                 racoon.GetComponent<RacoonMovement>().Flip();
             racoon.GetComponent<RacoonImage>().SetImage(GameManagerDaoAnh.Instance.GetImageForRacoon(i-1));
             Debug.Log("Spawned " + racoon.name);
-            racoon.gameObject.SetActive(true);
+            //racoon.gameObject.SetActive(true);
         }
     }
     private void ClearRacoon()

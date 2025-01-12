@@ -59,9 +59,12 @@ public class AlphabetDroppbleSlot : MonoBehaviour, IDropHandler
         {
             Debug.Log("Wrong Alphabet on " + transform.GetSiblingIndex());
             item.transform.Find("RedFx").gameObject.SetActive(true);
+            AudioManager.instance.PlaySfx(6);
         }
         GameManager_SXChuCai.instance.currentAlphabetNumOnSlot++;
         Invoke("CheckEndLv", .2f);
+        if(!item.transform.Find("RedFx").gameObject.activeInHierarchy)
+            AudioManager.instance.PlaySfx(0);
     }
     private void CheckEndLv() => GameManager_SXChuCai.instance.CheckEndLv();
 }

@@ -29,8 +29,11 @@ public abstract class Spawner : MonoBehaviour
     {
         foreach(Transform tran in poolObjs)
         {
-            if(tran.name == name+"(Clone)") 
+            if(tran.name == name+"(Clone)")
+            {
+                poolObjs.Remove(tran);
                 return tran;
+            }
         }
         return null;
     }
@@ -42,12 +45,15 @@ public abstract class Spawner : MonoBehaviour
             foreach (Transform tran in objPrefabs)
             {
                 if (tran.name == objName)
+                {
                     obj = Instantiate(tran, pos, rot, holder);
+                    Debug.Log("Spawned new racoon");
+                }
             }
         } else
         {
             obj.SetPositionAndRotation(pos, rot);
-            obj.parent = holder;
+            obj.SetParent(holder);
         }
         obj.gameObject.SetActive(true);
         return obj;
@@ -55,8 +61,8 @@ public abstract class Spawner : MonoBehaviour
     public void Despawn(Transform go)
     {
         go.gameObject.SetActive(false);
-        go.parent = holder;
-        //if(!poolObjs.Contains(go))
+        go.SetParent(holder);
+        if (!poolObjs.Contains(go))
             poolObjs.Add(go);
     }
 }

@@ -17,6 +17,14 @@ public class Player : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         anim.SetBool("Idle", true);
+        if(GameManagerDaoAnh.Instance != null)
+            GameManagerDaoAnh.Instance.onPlayerTouchingAction += SetPickUpAnim;
+    }
+    private void SetPickUpAnim()
+    {
+        if (TongsHandler.Instance.isPickingUp)
+            return;
+        SetAnim("Pick");
     }
     public void SetAnim(string _animName)
     {
@@ -27,4 +35,14 @@ public class Player : MonoBehaviour
         anim.SetBool(_animName, true);
     }
     private void OnFinshAnim() => SetAnim("Idle");
+    public void Flip(bool facingRight)
+    {
+        Vector2 localScale = transform.parent.localScale;
+        if (facingRight)
+            localScale.x = 1.1f;
+        else
+            localScale.x = -1.1f;
+        transform.parent.localScale = localScale;
+
+    } 
 }

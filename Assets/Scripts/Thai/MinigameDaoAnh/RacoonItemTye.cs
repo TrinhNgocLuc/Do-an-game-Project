@@ -9,4 +9,9 @@ public class RacoonItemTye : MonoBehaviour, IItemType
     {
         return pickUpSpeedModifier;
     }
+
+    public void SetBePickedUp(Transform parent)
+    {
+        GetComponent<RacoonMovement>().SetBePickedUp(parent);
+    }
 }

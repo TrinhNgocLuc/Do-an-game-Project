@@ -4,4 +4,5 @@ using UnityEngine;
 public interface IItemType
 {
     public float GetItemPickUpSpeedModifier();
+    public void SetBePickedUp(Transform parent);
 }

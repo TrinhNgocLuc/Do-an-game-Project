@@ -11,14 +11,16 @@ public class GameManager_SXChuCai : GameManager
     public int currentAlphabetNumOnSlot = 0;
     [Header("UI")]
     [SerializeField] private Image vocaImageGamePlay;
-    [SerializeField] private Image vocaImageGOVUI;
     [SerializeField] private TextMeshProUGUI vocaTextGamePlayTest;
-    [SerializeField] private TextMeshProUGUI vocaTextGOVUI;
-    [SerializeField] private TextMeshProUGUI vocaMeaningTextGOVUI;
     [SerializeField] private List<GameObject> perfectWordHolders;
     [SerializeField] private BackgroundMoving bg;
     [SerializeField] private PlayPartUI playPartUI;
-    [SerializeField] private playerData playerdata;
+    [SerializeField] private playerData playerScore;
+    [SerializeField] private GameObject rank;
+    [SerializeField] private GameObject gamePlay;
+    [SerializeField] private AudioSource SFXbutton;
+    private bool statusRank = false;
+
     private void Awake()
     {
         if (instance != null)
@@ -111,6 +113,7 @@ public class GameManager_SXChuCai : GameManager
         }
         VocabularyManager.instance.ResetVocabulariesRemain();
         SetRunToNextLvState();
+        AudioManager.instance.PlayBgm(0);
     }
     public Sprite GetSpriteByName(char alphabet)
     {
@@ -202,6 +205,7 @@ public class GameManager_SXChuCai : GameManager
             PassLvEffect();
             scoreFx.gameObject.SetActive(true);
             titleEndLvText.text = "Wonderful!";
+            AudioManager.instance.PlaySfx(1);
             switch (DifficultyManager.instance.Mode)
             {
                 case Difficulty.easy:
@@ -233,6 +237,7 @@ public class GameManager_SXChuCai : GameManager
     protected override void ResetGameState()
     {
         base.ResetGameState();
+        startTimer = false;
         currentAlphabetNumOnSlot = 0;
         playPartUI.SetOnState(false);
         for (int i = 0; i <= 3; i++)
@@ -258,11 +263,27 @@ public class GameManager_SXChuCai : GameManager
     }
     public override void OnClickOkExitOrReplayBtn()
     {
-        if (playerdata.scoreGame2 < score)
+        if (playerScore.scoreGame2 < score)
         {
-            playerdata.SetScoreGame2(score);
+            playerScore.SetScoreGame2(score);
         }
         base.OnClickOkExitOrReplayBtn();
+    }
+    public void controllRank()
+    {
+        SFXbutton.Play();
+        statusRank = !statusRank;
+        if (statusRank == true)
+        {
+            rank.SetActive(true);
+            gamePlay.SetActive(false);
 
+        }
+        else if (statusRank == false)
+        {
+            rank.SetActive(false);
+            gamePlay.SetActive(true);
+
+        }
     }
 }

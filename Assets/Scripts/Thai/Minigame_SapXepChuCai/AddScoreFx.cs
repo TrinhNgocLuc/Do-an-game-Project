@@ -6,7 +6,7 @@ using UnityEngine;
 public class AddScoreFx : MonoBehaviour
 {
     private Animator anim;
-    public TextMeshProUGUI addScoreText;
+    [HideInInspector] public TextMeshProUGUI addScoreText;
     [SerializeField] private Minigame minigame = Minigame.SXChuCai;
     private void Awake()
     {
@@ -19,6 +19,10 @@ public class AddScoreFx : MonoBehaviour
             GameManager_SXChuCai.instance.AddBonusScore();
         else if(minigame == Minigame.DaoAnh) 
             GameManagerDaoAnh.Instance.AddBonusScore();
+        else if(minigame == Minigame.LuyenTriNho)
+            GameManagerLuyenTriNho.Instance.AddBonusScore();
+        else if(minigame == Minigame.TanCongTuVung)
+            GameManagerTanCongTuVung.Instance.AddBonusScore();
         gameObject.SetActive(false);
     }
 }

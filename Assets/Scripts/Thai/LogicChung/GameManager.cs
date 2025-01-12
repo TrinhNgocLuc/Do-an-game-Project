@@ -29,6 +29,9 @@ public abstract class GameManager : MonoBehaviour
     [SerializeField] protected Image vocaImageEndLv;
     [SerializeField] protected TextMeshProUGUI vocaTextEndLv;
     [SerializeField] protected TextMeshProUGUI vocaMeaningText;
+    [SerializeField] protected Image vocaImageGOVUI;
+    [SerializeField] protected TextMeshProUGUI vocaTextGOVUI;
+    [SerializeField] protected TextMeshProUGUI vocaMeaningTextGOVUI;
     [SerializeField] protected int addScore = 0;
     public Vocabulary currentVocabulary;
     public List<Sprite> allAlphabetSprites;
@@ -68,6 +71,12 @@ public abstract class GameManager : MonoBehaviour
             timeOut = true;
             startTimer = false;
             life--;
+            if(life <= 0)
+            {
+                AudioManager.instance.StopAllBgm();
+                AudioManager.instance.PlaySfx(4);
+            }
+
             blurBlackScreen.gameObject.SetActive(true);
             timeOutNoti.gameObject.SetActive(true);
             titleEndLvText.text = "Ouch!";
@@ -76,10 +85,15 @@ public abstract class GameManager : MonoBehaviour
     }
     protected void TimeOutFx()
     {
-        if (life > 0)
+        if (life > 0) 
+        { 
             Player.Instance.SetAnim("Hit");
+            AudioManager.instance.PlaySfx(5);
+        }
         else
+        {
             Player.Instance.SetAnim("Dead");
+        }
         hearts[life].Find("Heart_RedFx").gameObject.SetActive(true);
     }
     public virtual void OnSelectDifficulty(int diff)
@@ -97,6 +111,7 @@ public abstract class GameManager : MonoBehaviour
                 break;
         }
         selectDiffUI.gameObject.SetActive(false);
+        Player.Instance.SetAnim("Idle");
     }
     public virtual void OnClickNextLv()
     {
@@ -104,6 +119,7 @@ public abstract class GameManager : MonoBehaviour
         timeOutNoti.gameObject.SetActive(false);
         blurBlackScreen.gameObject.SetActive(false);
         addScore = 0;
+        AudioManager.instance.IncreaseBGMVolumeAfterContinueGame();
     }
     public void OnSelectExitBtn()
     {
@@ -117,6 +133,11 @@ public abstract class GameManager : MonoBehaviour
     }
     public virtual void OnClickOkExitOrReplayBtn()
     {
+        if (exitOrReplayTitleTxt.text == "Bạn muốn thoát game?")
+        {
+            OnClickBackToMainEnvironment();
+            return;
+        }
         endLvUI.gameObject.SetActive(false);
         gameOverUI.gameObject.SetActive(false);
         selectDiffUI.gameObject.SetActive(true); 
@@ -129,14 +150,18 @@ public abstract class GameManager : MonoBehaviour
     protected virtual void EnablePassLvUI()
     {
         endLvUI.gameObject.SetActive(true);
+        AudioManager.instance.DecreaseBGMVolumeWhilePausedGame();
         PlayWordAudio();
     }
-    public void EnableEndGameUI()
+    public virtual void EnableEndGameUI()
     {
         if (life != 0)
             endLvUI.gameObject.SetActive(true);
         else
+        {
             gameOverUI.gameObject.SetActive(true);
+        }
+        AudioManager.instance.DecreaseBGMVolumeWhilePausedGame();
         PlayWordAudio();
     }
     public void AddScore()
@@ -178,11 +203,13 @@ public abstract class GameManager : MonoBehaviour
             return;
         Time.timeScale = 0f;
         pauseUI.SetActive(true);
+        AudioManager.instance.DecreaseBGMVolumeWhilePausedGame();
     }
     public void OnClickContinueGame()
     {
         Time.timeScale = 1f;
         pauseUI.SetActive(false);
+        AudioManager.instance.IncreaseBGMVolumeAfterContinueGame();
     }
     protected virtual void ResetGameState()
     {
@@ -191,12 +218,12 @@ public abstract class GameManager : MonoBehaviour
         lv = 1;
         addScore = 0;
         timeOut = false;
-        startTimer = false;
         timeOutNoti.gameObject.SetActive(false);
         blurBlackScreen.gameObject.SetActive(false);
         pauseUI.SetActive(false);
         exitOrReplayNoti.SetActive(false);
         Time.timeScale = 1;
+        AudioManager.instance.IncreaseBGMVolumeAfterContinueGame();
         for (int i = 0; i < 3; i++)
         {
             hearts[i].GetComponent<Image>().color = Color.white;
@@ -206,6 +233,7 @@ public abstract class GameManager : MonoBehaviour
     }
     public void OnClickBackToMainEnvironment()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Screen Main");
     }
 }
